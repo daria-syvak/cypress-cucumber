@@ -1,0 +1,13 @@
+{
+  "ccpaRequestorType": "California Resident",
+  "streetAddress": "131 Francis ave",
+  "city": "Orlando",
+  "zipcode": "14212",
+  "state": "Florida",
+  "firstName": "Test",
+  "lastName": "User",
+  "dob": "10/18/1961",
+  "income": "100000",
+  "phone": "7152930077",
+  "email": "test.example@gmail.com"
+}
