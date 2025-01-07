@@ -1,7 +1,7 @@
 @american-loan-assistance @regression
 Feature: American Loan Assistance
 
-@american-loan-assistance_lead_submission
+@american-loan-assistance_lead_submission @finalcheck
 
 Scenario Outline: Lead submission
     Given User is in "american loan assistance" landing page in "<Device>" view
@@ -58,7 +58,7 @@ Scenario Outline: Validate - Headers and Footers in every page in "<Device>" vie
         | CA Privacy Notice                   | mobile  |
         | Do Not Sell My Personal Information | mobile  |
 
-@american-loan-assistance_home
+@american-loan-assistance_home 
 Scenario Outline: Validate home page elements on American Loan Assistance Page in "<View>"
     Given User is in "american loan assistance" landing page in "<Device>" view
     And User should see "How much are you looking to consolidate?"
